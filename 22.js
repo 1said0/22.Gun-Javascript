@@ -6,42 +6,31 @@ V2 = 65;
 t2 = 6;
 x2 = V2 + t2;
 console.log(x2); 
-function findX (t, V){
-var x = t * V;
-}
 
 
-
-function findX (t,V){
-var x = t * V;
-return x;
-}
-var yol = findX(4,50);
-console.log(yol);
-var yol2 = findX(7,63);
-console.log(yol2);
 
 function findX (t, V, fn) {
     var x = t * V;
     return fn(x);
     }
-    function sumle (parami) {
-    return param1 + 10; I
+
+    function sum10 (param1) {
+    return param1 + 10; 
     }
-    var yol = findX (4, 50, sumle);
+    var yol = findX (4, 50, sum10);
     console.log(yol);
-    var yol2 = findX(7, 63, sumie);
+    var yol2 = findX(7, 63, sum10);
     console.log(yol2);
 
     
 var x; // x global var
-function sample Function () {
+function sampleFunction () {
 x = 56;
 console.log(x);
 }
 sampleFunction();
 console.log(x);
-function fonki() {
+function fonk1() {
 // kodlar....
 }
 if (x>7) {
@@ -71,7 +60,7 @@ dersSonucu (vize, final);
 Javascript Döngüler
 */
 var x = 1;
-while (x< 10){
+while (x < 10){
 console.log(x);
 x++;
 }
